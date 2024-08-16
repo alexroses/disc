@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
 
 export const home = (req: Request, res: Response) => {
-    res.send('home no controller!');
-
+    res.render('pages/page');
 }
